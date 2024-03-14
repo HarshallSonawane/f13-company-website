@@ -11,14 +11,14 @@
         z-index:100;
         width:100%;
         height:auto;
-        background-color:#15152a;
+        background-color:#070708;
         padding:0.500rem 0 1rem;
         transform:translateY(0px);
         transition:all 0.3s ease-in-out;
         animation:navbar 0.3s linear forwards;
     }
 
-    background-color:#15152a;
+    background-color:#070708;
     padding:0.500rem 0 1rem;
     transform:translateY(0px);
     transition: 0.3s all ease-in-out;
@@ -27,7 +27,7 @@
         display:flex;
         align-items:center;
         justify-content:space-between;
-
+        
         .navbar_brand img{
             max-width: 80%;
         }
