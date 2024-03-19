@@ -96,9 +96,43 @@ a {
 
       &:hover {
           outline-offset: 10px;
+          transform: scale(1.1);
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       }
   } 
-}   
+}
+
+/* Add this CSS to style the toggle button */
+.toggle-btn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #007bff; /* Change color to match your register button */
+  color: white; /* Text color */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px; /* Font size */
+  transition: all 0.3s ease;
+
+  &:hover {
+          outline-offset: 10px;
+          transform: scale(1.1);
+          background-color: #0056b3;
+      }
+}
+
+/*.login-box img {
+  width: 100%; /* Make sure the image fills the container
+  transition: transform 0.3s ease;  Add a transition for smooth effect
+}
+
+.login-box img:hover {
+  transform: scale(1.1);  Increase the scale of the image on hover
+
+}*/
+
 
 h1 {
   font-size: 3.875rem;
